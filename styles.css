@@ -1,0 +1,55 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background: url("Kanye_West.webp");
+    background-color: #333;
+    background-size: 250px;
+    font-family: 'Nunito', sans-serif;
+    font-family: 'Oxygen', sans-serif;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin-top: 0;
+}
+
+
+.container {
+    color: #f1f1f1;
+    background: rgba(0, 0, 0, 0.85);
+    backdrop-filter: blur(5.5px);
+    -webkit-backdrop-filter: blur(5.5px);
+    border-radius: 10px;
+    width: 90%;
+    max-width: 600px;
+    margin: 10em auto;
+    padding: 1.5em;
+}
+
+
+.quote-text {
+    font-size: 1.2rem;
+    font-style: italic;
+}
+
+.refresh-btn{
+    margin-top: 1em;
+    font-size: 1.1rem;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    padding: 0.5em 2em;
+}
+
+.refresh-btn:hover{
+    cursor: pointer;
+}
